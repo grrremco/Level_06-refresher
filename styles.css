@@ -1,0 +1,78 @@
+body {
+    font-family: lato, sans-serif;
+}
+
+.friend-block-wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 400px 400px;
+    }
+
+.friend-block {
+    max-width: 340px;
+    border: solid 2px #d4d4d5;
+    border-radius: 10px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 290px 50px;
+}
+
+.friend-block > img {
+    width: 50px;
+    grid-column: 2;
+    grid-row-start: 1;
+}
+
+.friend-block h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #262626;
+    grid-column: 1;
+    grid-row-start: 1;
+    margin-top: -5px;
+}
+
+.friend-block h4 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #999999;
+    grid-column: 1;
+    grid-row-start: 1;
+    padding-top: 5px;
+}
+
+.friend-block p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #525252;
+    grid-column: 1/-1;
+    margin-top: -12px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    padding-top: 25px;
+}
+
+.approve {
+    color: #21ba45;
+    font-size: 18px;
+    border-top: solid 2px  #21ba45;
+    border-bottom: solid 2px  #21ba45;
+    border-left: solid 2px  #21ba45;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.decline {
+    color: #db2828;
+    font-size: 18px;
+    border: solid 2px  #db2828;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+}
